@@ -1,0 +1,29 @@
+FTK_Acquisition_Log.txt
+
+1. ACQUISITION START
+Acquisition start time: [DATE_TIME] [TIMEZONE]
+Tool Used: FTK Imager (portable version)
+Tool Execution path: [TOOL_PATH]/FTKImager.exe
+Source System: [OS_VERSION] ([VIRTUALIZATION_PLATFORM] guest)
+
+Action performed: File-Capture memory
+
+2. EVIDENCE ACQUIRED (RAM DUMP)
+Description: LIVE memory (RAM) acquisition completed successfully
+Destination path: [DESTINATION_PATH]/VM_RAM_Capture_Mem
+File size: [FILE_SIZE_BYTES] bytes
+
+3. HASH VERIFICATION
+Action: VM_RAM_Capture_Mem loaded into FTK Imager
+Verified Timestamp: [DATE_TIME] [TIMEZONE] (Time verification completed)
+Result: No bad blocks found in image
+
+MD5 Hash Computed: [MD5_HASH]
+SHA1 Hash Computed: [SHA1_HASH_RAM_DUMP]
+
+4. ADDITIONAL ARTIFACTS
+Registry Hives Acquisition: Completed
+Registry Hives SHA1 Hash: [SHA1_HASH_REGISTRY]
+
+Final Archive Creation: Evidence packaged into [ARCHIVE_FILENAME].7z
+Final Archive SHA1 Hash: [SHA1_HASH_ARCHIVE]
