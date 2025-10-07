@@ -1,0 +1,24 @@
+ CRITICAL: FORENSIC EVIDENCE FILES TO IGNORE ---
+# Prevents accidental public exposure of memory and registry dumps
+VM_RAM_Capture.Mem
+Registry_Hives.zip
+Evidence.7z
+*.mem
+*.zip
+*.7z
+*.7zip
+*.iso
+*.vmdk
+*.vhd
+
+# --- OPERATING SYSTEM AND TEMP FILES ---
+# Windows-generated thumbnail cache
+Thumbs.db
+# macOS-generated files
+.DS_Store
+
+# --- COMMON LOGS AND TEMPORARY FILES ---
+*.log
+*.tmp
+# Temporary Word/Office backup files
+~$*
